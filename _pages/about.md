@@ -119,7 +119,6 @@ I also have experience building various applications using <b>Python</b>, such a
     <li>
 
       {% if post.thumbnail %}
-
       <div class="row">
         <div class="col-sm-9">
       {% endif %}
@@ -136,7 +135,11 @@ I also have experience building various applications using <b>Python</b>, such a
           <p class="post-tags">
           </p>
         </div>
-      </div>
+        {% if post.thumbnail %}
+          <div class="col-sm-3">
+            <img class="card-img" src="{{post.thumbnail | relative_url}}" style="object-fit: cover; height: 90%" alt="image">
+          </div>
+        </div>
       {% endif %}
     </li>
 
