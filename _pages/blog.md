@@ -20,7 +20,6 @@ pagination:
 
 <div class="post">
 
-
   <ul class="post-list">
 
     {% if page.pagination.enabled %}
@@ -61,7 +60,7 @@ pagination:
       </h3>
       <p>{{ post.description }}</p>
       <p class="post-tags">
-      
+
 
           {% if tags != "" %}
           &nbsp; &middot; &nbsp;
