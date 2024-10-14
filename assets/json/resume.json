@@ -1,4 +1,4 @@
-{  
+{
   "education": [
     {
       "institution": "Korea University",
@@ -69,50 +69,32 @@
         "Scraping, Crawling",
         "Desktop App",
         "etc"
-
       ]
     },
     {
       "name": "Unity",
       "level": "5 years",
       "icon": "🎮",
-      "keywords": [
-        "Mobile Game",
-        "AR - ARCore, ARKit,Vuforia",
-        "VR",
-        "Applications"
-
-      ]
+      "keywords": ["Mobile Game", "AR - ARCore, ARKit,Vuforia", "VR", "Applications"]
     },
     {
       "name": "Javascript",
       "level": "2-3 years",
       "icon": "💻",
-      "keywords": [
-        "API System",
-        "Web3 Application",
-        "Automation System"
-
-      ]
+      "keywords": ["API System", "Web3 Application", "Automation System"]
     },
     {
       "name": "PineScript",
       "level": "3 year",
       "icon": "💻",
-      "keywords": [
-        "Strategies",
-        "Backtesting"
-      ]
+      "keywords": ["Strategies", "Backtesting"]
     },
     {
       "name": "Solidity",
       "level": "1 year",
       "icon": "💻",
-      "keywords": [
-        "Web3 Smart Contract"
-      ]
+      "keywords": ["Web3 Smart Contract"]
     }
-
   ],
   "languages": [
     {
@@ -126,7 +108,7 @@
       "icon": "😊"
     }
   ],
- 
+
   "projects": [
     {
       "name": "Quantum Computing",

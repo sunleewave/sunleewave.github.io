@@ -28,6 +28,82 @@ I also have experience building various applications using <b>Python</b>, such a
 
 ---
 
+### Languages & Skills
+
+<b><h5>Korean Fluency: Native speaker<h5></b>
+
+<b><h5>English Fluency: Conversational +</h5></b>
+
+<table border="1" cellpadding="10" cellspacing="0">
+  <thead>
+    <tr>
+      <th>Technology</th>
+      <th>Experience</th>
+      <th>Keywords</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Python</strong></td>
+      <td>7 years</td>
+      <td>
+        <ul>
+          <li>Flask, FastAPI API System</li>
+          <li>Chatbot</li>
+          <li>Auto Trading System - MT5, Stocks, Crypto</li>
+          <li>Scraping, Crawling</li>
+          <li>Desktop App</li>
+          <li>etc</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Unity</strong></td>
+      <td>5 years</td>
+      <td>
+        <ul>
+          <li>Mobile Game</li>
+          <li>AR - ARCore, ARKit, Vuforia</li>
+          <li>VR</li>
+          <li>Applications</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Javascript</strong></td>
+      <td>2-3 years</td>
+      <td>
+        <ul>
+          <li>API System</li>
+          <li>Web3 Application</li>
+          <li>Automation System</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>PineScript</strong></td>
+      <td>3 years</td>
+      <td>
+        <ul>
+          <li>Strategies</li>
+          <li>Backtesting</li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td><strong>Solidity</strong></td>
+      <td>1 year</td>
+      <td>
+        <ul>
+          <li>Web3 Smart Contract</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+---
+
 ## Publications
 
 <div class="publications">
