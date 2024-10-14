@@ -102,7 +102,12 @@ I also have experience building various applications using <b>Python</b>, such a
 <div class="post">
 
   <ul class="post-list">
-
+    {% if page.pagination.enabled %}
+      {% assign postlist = paginator.posts %}
+    {% else %}
+      {% assign postlist = site.posts %}
+    {% endif %}
+    
     {% for post in postlist %}
 
     {% if post.external_source == blank %}
