@@ -30,11 +30,11 @@ I also have experience building various applications using <b>Python</b>, such a
 
 #### Languages & Skills
 
-<b>Korean Fluency: Native speaker</b> | <b>English Fluency: Conversational +</b>
+<b>Korean Fluency: Native speaker   |   English Fluency: Conversational +</b>
 
 ---
 
-<b>Python | Unity | Javascript | Solidity | Pinescript </b>
+<b>Python   |   Unity   |   Javascript  |   Solidity   |   Pinescript </b>
 
 ---
 
