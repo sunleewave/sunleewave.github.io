@@ -132,7 +132,6 @@ I also have experience building various applications using <b>Python</b>, such a
       <p>{{ post.description }}</p>
       <p class="post-tags">
 
-
           {% if tags != "" %}
           &nbsp; &middot; &nbsp;
             {% for tag in post.tags %}
@@ -174,4 +173,63 @@ I also have experience building various applications using <b>Python</b>, such a
 {% endif %}
 
 </div>
+<div class="clearfix"></div>
+
+---
+
+## Languages
+
+<div class="languages-section">
+  {% assign languages = site.data.resume.languages %}
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    {% for language in languages %}
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-md-2">
+            {% if language.icon %}
+              <i class="{{ language.icon }}"></i>
+            {% endif %}
+          </div>
+          <div class="col-md-10">
+            <h6 class="title font-weight-bold">{{ language.language }}</h6>
+            <p>Fluency: {{ language.fluency }}</p>
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
+<div class="clearfix"></div>
+
+---
+
+## Skills
+
+<div class="skills-section">
+  {% assign skills = site.data.resume.skills %}
+  <ul class="card-text font-weight-light list-group list-group-flush">
+    {% for skill in skills %}
+      <li class="list-group-item">
+        <div class="row">
+          <div class="col-md-2 text-center">
+            <i class="{{ skill.icon }}"></i>
+          </div>
+          <div class="col-md-10">
+            <h6 class="title font-weight-bold">{{ skill.name }} - {{ skill.level }}</h6>
+            {% if skill.keywords %}
+              <p>Keywords:</p>
+              <ul>
+                {% for keyword in skill.keywords %}
+                  <li>{{ keyword }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </div>
+        </div>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
+
 <div class="clearfix"></div>
