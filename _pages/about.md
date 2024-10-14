@@ -2,20 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: profile1.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    Sungjun Sun Lee
+    zinpolygon35@gmail.com
 
-news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+news: false # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false # includes social icons at the bottom of the page
 ---
 
 I am interested in <b>HCI, with a focus on AR/VR and AI programming.</b> I enjoy creating software that combines these technologies, such as <b>educational programs or control systems that support collaboration.</b>
@@ -86,28 +84,3 @@ I also have experience building various applications using <b>Python</b>, such a
 <div class="clearfix"></div>
 
 ---
-
-## Projects
-
-<div class="post">
-
-  <ul class="post-list">
-
-    {% if page.pagination.enabled %}
-      {% assign postlist = paginator.posts %}
-    {% else %}
-      {% assign postlist = site.posts %}
-    {% endif %}
-
-    {% for post in postlist %}
-
-    {% if post.external_source == blank %}
-      {% assign read_time = post.content | number_of_words | divided_by: 180 | plus: 1 %}
-    {% else %}
-      {% assign read_time = post.feed_content | strip_html | number_of_words | divided_by: 180 | plus: 1 %}
-    {% endif %}
-    {% assign year = post.date | date: "%Y" %}
-    {% assign tags = post.tags | join: "" %}
-    {% assign categories = post.categories | join: "" %}
-
-    <li>
