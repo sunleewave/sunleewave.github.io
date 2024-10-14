@@ -28,7 +28,7 @@ I also have experience building various applications using <b>Python</b>, such a
 
 ---
 
-### Languages & Skills
+#### Languages & Skills
 
 <b><h5>Korean Fluency: Native speaker<h5></b>
 
@@ -104,7 +104,7 @@ I also have experience building various applications using <b>Python</b>, such a
 
 ---
 
-## Publications
+### Publications
 
 <div class="publications">
 
@@ -116,7 +116,9 @@ I also have experience building various applications using <b>Python</b>, such a
 
 ---
 
-## Education & Experience
+### Education & Experience
+
+---
 
 <div class="education"></div>
 
@@ -160,3 +162,5 @@ I also have experience building various applications using <b>Python</b>, such a
 <div class="clearfix"></div>
 
 ---
+
+### Projects
